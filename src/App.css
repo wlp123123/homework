@@ -1,0 +1,350 @@
+header{
+    width:100%;
+    height:0.9rem;
+    display: flex;
+    background: linear-gradient(135deg, #FFD000 0%, #FFBD00 100%);
+}
+.h-place,.h-find{
+    width:1.4rem;
+    height:100%;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.h-find{
+    width:1.2rem;
+    height:100%;
+    text-align: center;
+    line-height: 0.9rem;
+}
+.h-search{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.h-search p{
+    width:100%;
+    height:60%;
+    background: #fff;
+    border-radius: 0.1rem;
+    color:gray;
+    display: flex;
+    align-items: center;
+}
+.h-search p input{
+    border:0px;
+    outline: none;
+    background: none;
+}
+.h-search p .iconfont{
+    margin:0rem 0.1rem;
+}
+.goapp{
+    width:100%;
+    height:0.9rem;
+    background: black;
+    color:white;
+    padding:0.1rem 0.2rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.app-logo{
+    width:0.7rem;
+    display: flex;
+    align-self: center;
+    margin-right: 0.2rem;
+}
+img{
+    width:100%;
+    height: auto;
+    display: block;
+}
+.btn-app{
+    width:1rem;
+    height:100%;
+    display: flex;
+    align-items: center;
+}
+.btn-app button{
+    outline: none;
+    background: linear-gradient(135deg, #FFD000 0%, #FFBD00 100%);
+    color:black;
+    font-size: 0.2rem;
+    width:100%;
+    height:70%;
+    border:0px;
+    border-radius: 0.1rem;
+}
+.app-title{
+    flex:1;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.app-title h2{
+    font-size: 0.2rem;
+}
+.banner{
+    width:100%;
+    border-bottom: 0.1rem solid #dededd;
+}
+.ant-carousel .slick-slide {
+    width:100%;
+    overflow: hidden;
+  }
+  .lists{
+      width:100% !important;
+      display: flex !important;
+      flex-wrap: wrap;
+      padding-bottom: 0.2rem;
+  }
+  .lists dl{
+      width:20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding:0.1rem;
+      box-sizing: border-box;
+      font-size: 0.2rem;
+  }
+  .lists dl dt{
+      width:70%;
+  }
+  dl,dt,dd{
+      margin:0;
+  }
+  ul .slick-active{
+      background: orangered;
+  }
+section{
+    flex:1;
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+}
+section>h1{
+    border-bottom: 1px solid #dedede;
+    width:100%;
+    height:0.8rem;
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+}
+.app-title h1{
+    color:white;
+    margin:0;
+}
+.app-title h2{
+    color:white;
+    margin:0;
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+.foods{
+    padding:0.2rem;
+    padding-left: 0rem;
+    width:100%;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dedede;
+}
+.f-logo{
+    width:1.5rem;
+    padding-right:0.2rem;
+}
+.f-mess{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+.f-mess h2{
+    font-size: 0.2rem;
+}
+.price{
+    flex:1;
+    display: flex;
+}
+.price p{
+    flex:1;
+}
+.price p:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.price p:first-child{
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.22rem;
+}
+.f-mess h1{
+    font-size: 0.26rem;
+}
+.price span{
+    font-size: 0.28rem;
+    color:orangered;
+}
+.foods-box{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.head{
+    width:100%;
+    height:0.8rem;
+    display: flex;
+    position: fixed;
+    top:0;
+    color:white;
+}
+.h-back,.h-my{
+    width:1.2rem;
+    height:100%;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.h-back .iconfont,.h-my .iconfont{
+    font-size: 0.4rem;
+}
+.h-search{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+.head .h-search p{
+    width:100%;
+    height:60%;
+    background: #fff;
+    border-radius: 0.3rem;
+    color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-search p input{
+    border:0px;
+    outline: none;
+    background: none;
+}
+.h-search p .iconfont{
+    margin:0rem 0.1rem;
+}
+p{
+    margin:0;
+}
+.food-logo{
+    width:100%;
+    border-bottom: 1px solid #dedede;
+}
+.kinds{
+    width:100% ;
+    display: flex ;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    border-bottom: 0.1rem solid #dedede;
+
+}
+.kinds dl{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:0.1rem;
+    box-sizing: border-box;
+    font-size: 0.2rem;
+}
+.kinds dl dt{
+    width:60%;
+}
+.filters{
+    width:100%;
+    height:0.8rem;
+    display: flex;
+    border-bottom: 1px solid #dedede;
+}
+.filters li{
+    flex:1;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.lists-box{
+    flex:1;
+}
+.boxs{
+    width:100%;
+    
+    border-bottom: 1px solid #dedede;
+}
+.lists-box .foods{
+    padding:0.2rem;
+    border:0;
+    width:100%;
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.lists-box .f-logo{
+    width:1.8rem;
+    padding-right:0.2rem;
+}
+.lists-box h4{
+    color:green;
+}
+.lists-box .f-mess{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+}
+
+.lists-box .price{
+    flex:1;
+    display: flex;
+}
+.lists-box .price div{
+    flex:1;
+}
+.lists-box .price div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.lists-box .price div:first-child{
+    display: flex;
+    align-items: center;
+    font-size: 0.22rem;
+    
+}
+.lists-box .f-mess h1{
+    font-size: 0.28rem;
+}
+.foot-titles{
+    width:100%;
+    height:0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.2rem;
+}
+.red{
+    border:1px solid red;
+    color:red;
+    border-radius: 2px;
+    margin-right:0.1rem;
+}
+.green{
+    background: green;
+    color:white;
+    margin-right:0.1rem;
+}
+.ant-rate-star:not(:last-child){
+    margin:0;
+}
+.ant-rate{
+    font-size: 0.2rem;
+}
+ul{
+    margin:0;
+}
