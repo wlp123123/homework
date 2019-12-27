@@ -8,6 +8,9 @@ export default class view extends Component {
         },
         styleipt:{
             backgroundColor:"white"
+        },
+        stylehide:{
+            display:"none"
         }
     }
     handleScroll=()=>{
@@ -20,6 +23,9 @@ export default class view extends Component {
                 },
                 styleipt:{
                     backgroundColor:"#dedede"
+                },
+                stylehide:{
+                    display:"block"
                 }
 
             })
@@ -31,18 +37,25 @@ export default class view extends Component {
                 },
                 styleipt:{
                     backgroundColor:"white"
+                },
+                stylehide:{
+                    display:"none"
                 }
             })
-            console.log(11111)
+            //console.log(11111)
         }
+    }
+    gotop=()=>{
+        document.getElementsByClassName("foods-box")[0].scrollTop=0
     }
     back=()=>{
         this.props.history.go(-1)
     }
     render() {
-        let {style,styleipt}=this.state
+        let {style,styleipt,stylehide}=this.state
         return (
             <div className="foods-box"   onScroll={()=>this.handleScroll()}>
+            <button className="gotop" style={stylehide} onClick={()=>this.gotop()}>返回顶部</button>
                 <div className="head" style={style}>
                     <div className="h-back" onClick={()=>this.back()}>
                     <i className="iconfont icon-zuo"></i>

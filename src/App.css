@@ -348,3 +348,16 @@ p{
 ul{
     margin:0;
 }
+.gotop{
+    background: red;
+    position: fixed;
+    bottom: 1rem;
+    right:0.1rem;
+    border:0;
+    color:white;
+    width:1rem;
+    height:1rem;
+    line-height: 1rem;
+    text-align: center;
+    border-radius: 50%;
+}
